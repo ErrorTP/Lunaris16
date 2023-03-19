@@ -1,7 +1,7 @@
 compile = ["make", "-s"]
 run = "./main program.lasm program.lbin"
 entrypoint = "main.c"
-hidden = ["main", "main-debug", "**/*.o", "**/*.d", ".ccls-cache", "Makefile"]
+hidden = ["main", "main-debug", "**/*.o", "**/*.d", ".ccls-cache", "Makefile",".git",".gitignore"]
 
 [nix]
 channel = "stable-22_11"

@@ -27,7 +27,9 @@ Each instruction is split into a 5 bit operator and a 11 bit argument.
 |JMPE|01111|Instruction location|Jumps if A is equal to C|
 |BSR|10000|Amount|Bitshifts A right the given amount|
 |BSL|10001|Amount|Bitshifts A left the given amount|
+
 Extended
+
 |Instruction|Binary|Function|
 |--|--|--|
 |ADD|1111100000000000|Adds B to A and stores the result in A|
