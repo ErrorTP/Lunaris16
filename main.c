@@ -56,18 +56,32 @@ char *encode_instruction(char *instruction) {
   } else if (strcmp(opcode, "BSL") == 0) {
     strncpy(binary_opcode, "10001", 5);
   } else if (strcmp(opcode, "ADD") == 0) {
-    strncpy(binary_opcode, "1111000000000000", 16);
+    strncpy(binary_opcode, "1111100000000000", 16);
   } else if (strcmp(opcode, "SUB") == 0) {
-    strncpy(binary_opcode, "1111000000000001", 16);
+    strncpy(binary_opcode, "1111100000000001", 16);
   } else if (strcmp(opcode, "MULT") == 0) {
-    strncpy(binary_opcode, "1111000000000010", 16);
+    strncpy(binary_opcode, "1111100000000010", 16);
   } else if (strcmp(opcode, "DIV") == 0) {
-    strncpy(binary_opcode, "1111000000000011", 16);
+    strncpy(binary_opcode, "1111100000000011", 16);
   } else if (strcmp(opcode, "MIA") == 0) {
-    strncpy(binary_opcode, "1111000000000100", 16);
+    strncpy(binary_opcode, "1111100000000100", 16);
   } else if (strcmp(opcode, "MOA") == 0) {
-    strncpy(binary_opcode, "1111000000000101", 16);
-  } else {
+    strncpy(binary_opcode, "1111100000000101", 16);
+  }else if (strcmp(opcode, "SWP") == 0) {
+    strncpy(binary_opcode, "1111100000000110", 16);
+  }else if (strcmp(opcode, "SWC") == 0) {
+    strncpy(binary_opcode, "1111100000000111", 16);
+  }else if (strcmp(opcode, "HLT") == 0) {
+    strncpy(binary_opcode, "1111100000001000", 16);
+  }else if (strcmp(opcode, "CTR") == 0) {
+    strncpy(binary_opcode, "1111100000000101", 16);
+  }else if (strcmp(opcode, "AND") == 0) {
+    strncpy(binary_opcode, "1111100000001010", 16);
+  }else if (strcmp(opcode, "OR") == 0) {
+    strncpy(binary_opcode, "1111100000001011", 16);
+  } else if (strcmp(opcode, "NOT") == 0) {
+    strncpy(binary_opcode, "1111100000001100", 16);
+  }  else {
     printf("Invalid opcode: %s\n", opcode);
     return NULL;
   }
