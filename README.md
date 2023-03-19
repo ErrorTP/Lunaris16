@@ -1,5 +1,5 @@
 ## Lunaris16
-[![C/C++ CI](https://github.com/ErrorTheProgrammer/Lunaris16/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/ErrorTheProgrammer/Lunaris16/actions/workflows/c-cpp.yml)
+[![C/C++ CI](https://github.com/ErrorTheProgrammer/Lunaris16/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/ErrorTheProgrammer/Lunaris16/actions/workflows/c-cpp.yml)<br>
 Lunaris is an assembly language designed for the Horizon16.
 This is solely created for experience and fun and is not intended to be used in anything serious.
 ## How it works
