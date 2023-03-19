@@ -1,0 +1,13 @@
+a.out
+program.lasm
+program.lbin
+program.out
+main
+Makefile
+.git/
+.ccls-cache/
+.gitignore
+.replit
+.cache
+replit.nix
+.breakpoints

@@ -152,7 +152,7 @@ int main(int argc, char *argv[]) {
     printf("Usage: %s input_file [output_file]\n", argv[0]);
     return 0;
   }
-  printf("Lunaris and Horizon16 are in early development!\nLunaris for the Horizon16 Version 1.0.0\n")
+  printf("Lunaris and Horizon16 are in early development!\nLunaris for the Horizon16 Version 1.0.0\n");
   #ifdef __linux__
   printf("Currently running on Linux\n");
   #else
