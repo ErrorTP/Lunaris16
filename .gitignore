@@ -1,0 +1,16 @@
+a.out
+program.lasm
+program.lbin
+program.out
+main
+Makefile
+.git/
+.ccls-cache/
+!.replit
+!.cache
+replit.nix
+!.breakpoints
+!.gitignore
+__replit_disk_meta.json
+modules.stamp
+env.json
