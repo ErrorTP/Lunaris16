@@ -46,3 +46,5 @@ Extended
 |AND|1111100000001010|Bitwise AND on registers A and B
 |OR|1111100000001011|Bitwise OR on registers A and B
 |NOT|1111100000001100|Bitwise NOT on registers A and B
+
+# These are subject to change!
