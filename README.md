@@ -1,5 +1,6 @@
 ## Lunaris16
-[![C/C++ CI](https://github.com/ErrorTheProgrammer/Lunaris16/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/ErrorTheProgrammer/Lunaris16/actions/workflows/c-cpp.yml)<br>
+[![C/C++ CI](https://github.com/ErrorTheProgrammer/Lunaris16/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/ErrorTheProgrammer/Lunaris16/actions/workflows/c-cpp.yml)
+<br>
 Lunaris is an assembly language designed for the Horizon16.
 This is solely created for experience and fun and is not intended to be used in anything serious.
 ## How it works
@@ -47,4 +48,4 @@ Extended
 |OR|1111100000001011|Bitwise OR on registers A and B
 |NOT|1111100000001100|Bitwise NOT on registers A and B
 
-# These are subject to change!
+# These are subject to change
