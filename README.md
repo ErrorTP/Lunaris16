@@ -1,5 +1,5 @@
 ## Lunaris16
-[![C/C++ CI](https://github.com/ErrorTheProgrammer/Lunaris16/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/ErrorTheProgrammer/Lunaris16/actions/workflows/c-cpp.yml)
+[![C CI](https://github.com/ErrorTheProgrammer/Lunaris16/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/ErrorTheProgrammer/Lunaris16/actions/workflows/c-cpp.yml)
 <br>
 Lunaris is an assembly language designed for the Horizon16.
 This is solely created for experience and fun and is not intended to be used in anything serious.
@@ -46,6 +46,6 @@ Extended
 |CTR|1111100000001001|Loads program counter value into register A
 |AND|1111100000001010|Bitwise AND on registers A and B
 |OR|1111100000001011|Bitwise OR on registers A and B
-|NOT|1111100000001100|Bitwise NOT on registers A and B
+|NOT|1111100000001100|Bitwise NOT on register A
 
 # These are subject to change
