@@ -40,8 +40,8 @@ Extended
 |DIV|1111100000000011|Divides register A by register B and stores the result in A
 |MIA|1111100000000100|Loads register A as a memory address and copies the value to C
 |MOA|1111100000000101|Uses register A as a memory address and stores the value in C
-|SWP|1111100000000110|Swap register A with B
-|SWC|1111100000000111|Swap register A and C
+|SWP|1111100000000110|Swap register A with B (C is erased as a side effect)
+|SWC|1111100000000111|Swap register A and C (B is erased as a side effect)
 |HLT|1111100000001000|Stop the clock
 |CTR|1111100000001001|Loads program counter value into register A
 |AND|1111100000001010|Bitwise AND on registers A and B
