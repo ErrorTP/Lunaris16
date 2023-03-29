@@ -1,6 +1,4 @@
-## Lunaris16
-
-<image align="left" src="./assets/images/Lunaris.png" width=200>
+<image align="left" src="./assets/images/Lunaris.png" width=400>
 </image>
 <center><h4 align="left" >An assembler for the new Horizion </h4></center>
 
