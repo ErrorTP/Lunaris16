@@ -1,5 +1,11 @@
 ## Lunaris16
+
+<image align="left" src="./assets/images/Lunaris.png" width=200>
+</image>
+<center><h4 align="left" >An assembler for the new Horizion </h4></center>
+
 [![C CI](https://github.com/ErrorTheProgrammer/Lunaris16/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/ErrorTheProgrammer/Lunaris16/actions/workflows/c-cpp.yml)
+<br clear="left">
 <br>
 Lunaris is an assembly language designed for the Horizon16.
 This is solely created for experience and fun and is not intended to be used in anything serious.
